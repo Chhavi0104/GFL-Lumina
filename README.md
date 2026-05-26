@@ -22,6 +22,6 @@ After creating and assistant, rename the template.env file to .env and insert yo
 
 ## Installation
 
-'''bash
+```bash
 npm install
 npm start run
