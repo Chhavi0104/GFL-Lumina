@@ -16,9 +16,10 @@ The user can ask queries based on policies included but not limited to the topic
 ## Customization
 
 To build a knowledge base and assistant in Qlik, refer to the following documentation -
+
 [Qlik Answers Official Documentation](https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/QlikAnswers/Qlik-Answers.htm)
 
-After creating and assistant, rename the template.env file to .env and insert your variables.
+After creating a knowledge base and connecting it to an assistant, rename the template.env file to .env and insert your variables.
 
 ## Installation
 
