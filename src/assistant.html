@@ -1,0 +1,71 @@
+<DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <script crossorigin="anonymous" type="application/javascript"
+      src="https://cdn.jsdelivr.net/npm/@qlik/embed-web-components@1/dist/index.min.js" data-auth-type="Oauth2"
+      data-host="YOUR_QLIK_HOSTNAME" data-client-id="YOUR_FRONTEND_CLIENT_ID"
+      data-redirect-uri="http://localhost:3000" data-access-token-storage="session"
+      data-auto-redirect="true"></script>
+  </head>
+
+  <body>
+    
+    <div class="main">
+      
+      <div class="left-section">
+        
+        <div class="glass-card">
+         
+          <div class="top-section">
+            
+            <div class="logo">
+              <img src='image.png' placeholder="GFL Logo" width="140px" height="100px">
+            </div>
+            
+            <div class="heading">
+              <h1>Human Resources Policy QnA Assistant</h1>
+              <p class="powered">Powered by Qlik Answers</p>
+            </div>
+          </div>
+          
+          <div class="text-section">
+            <p>This assistant is made using Qlik Answers. The knowledge base currently has information on GFL HR policies.</p>
+            <p>Some topics included in these policies are -</p>
+            <ol>
+              <li>Recruitment</li>
+              <li>Planning across locations</li>
+              <li>Employee Induction</li>
+              <li>Paid Holidays</li>
+              <li>Career Progression</li>
+            </ol>
+            <p>The user may ask queries related to policies including but not limited to the mentioned topics. Please verify the sources listed in the answer for better accuracy.</p>
+          </div>
+          </div>
+      </div>
+
+      <div class="right-section">
+        
+        <div>
+          <qlik-embed ui="ai/agentic-assistant" assistant-id="YOUR-ASSISTANT-ID"
+            appearance="qlik-light"></qlik-embed>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+
+  </html>

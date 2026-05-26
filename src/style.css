@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(to left, #fafafa 15%, #e8fff0 40%, #d9ffee 75%, #c2e4ff 100%);
+    font-family: 'Manrope', sans-serif
+}
+      
+.main {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.left-section {
+    align-items: center
+}
+
+.top-section {
+    display: flex
+}
+
+.powered {
+    font-weight: bold;
+    color: rgb(22, 64, 67);
+    text-align: right
+}
+
+.text-section {
+    padding: 40px;
+    color: rgb(22, 64, 67);
+    font-size: 24px
+}
+
+h1 {
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(59, 77, 78);
+    padding-left: 100px
+}
