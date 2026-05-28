@@ -1,10 +1,10 @@
-# GFL Human Resources Policy QnA Assitant   
+# GFL Lumina : Human Resources Policy QnA Assitant   
 
 Qlik Embedded Analytics with Qlik-Embed and m2m Authentication with impersonation for SSO
 
 ## Basic Overview
 
-This project has an embedded Qlik Answers Assistant in a simple HTML, CSS and JS application served via Express.js. The knowledge base for the assistant contains 13 Human Resource Policies spanning over the following topics -
+Lumina has an embedded Qlik Answers Assistant in a simple HTML, CSS and JS application served via Express.js. The knowledge base for the assistant contains 13 Human Resource Policies spanning over the following topics -
 - Recruitment
 - Paid Leaves
 - Employee Induction
